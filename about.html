@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+        
+        <style>
+            * { margin: 0; padding: 0; text-decoration: none; color:black}
+            body { width:100% }
+            body > div { width: 100%;  margin: 0 auto; }
+
+            #top { width: 1000px; height: 500px; }
+            #top .top_left { float: left; width: 750px; height: 500px; background-image:url("source/chef_about.png"); }
+            #top .top_left .top_box { width: 250px; height: 250px; background-color: rgba(6, 71, 0, 0.7); position: relative; top:250px; padding: 22px; box-sizing: border-box; }
+            #top .top_left .top_box p { margin-bottom: 20px; font-size: 12px; font-weight: bold; } 
+            #top .top_left .top_box p:first-child { font-size: 20px; }
+            #top .top_right { float: right; width: 250px; height: 500px; }
+            #top .top_right > img { display: block; }
+
+            #box_all { width: 1000px; height: 500px; }
+            #box_all .box_left { float: left; width:750px; height: 500px; }
+            #box_all .box_left .box { float: left ; width: 250px; height: 250px; background-color:rgb(184, 95, 54); padding : 22px; box-sizing: border-box; }
+            #box_all .box_left .box:nth-child(2n-1) { background-color: rgb(53, 48, 48); }
+            #box_all .box_left .box p { margin-bottom: 20px; font-size: 12px; font-weight: bold;}
+            #box_all .box_left .box p:first-child { font-size: 20px; }
+            #box_all .box_right { width:250px; height: 500px; float: right; background-color: yellow; }
+            
+            #footer { width: 1000px; height:40px; background-color: pink; }
+            #footer .f_left { float: left; width:750px; height: 40px; background-color: gray; }
+            #footer .f_left ol { margin: 12px; line-height: 11px; }
+            #footer .f_left ol li { display: inline-block; padding: 0 10px ; border-right:2px solid rgb(184, 95, 54); font-size: 12px; font-weight: bold;}            
+            #footer .f_left ol li:last-child { border-right:none; }
+        </style>
+    </head>
+
+    <body>
+        <div id = "top">
+            <div class="top_left">
+                <div class ="top_box">
+                    <p>반죽하는 법</p>
+                    <p>반죽을 예쁘게 누른다. 그리고 또 예쁘게 누른다. 그리고 또 예쁘게 눌러본다. 그리고 또 예쁘게 눌러보고자 결심한다. </p>
+                </div>
+            </div>
+
+            <div class="top_right">
+                <img src="source/right1.png"/><img src="source/right2.png"/>
+            </div>
+        </div>
+
+
+        <div id = "box_all">
+            <div class="box_left">
+                <td><div class="box"><p>TITLE</p><p>This is a html page made by Dasol Joung. This is a html page made by Dasol Joung.</p></div></td>
+                <td><div class="box"><p>TITLE</p><p>This is a html page made by Dasol Joung. This is a html page made by Dasol Joung.</p></div></td>
+                <td><div class="box"><p>3</p><p></p></div></td>
+                <td><div class="box"><p>4</p><p></p></div></td>
+                <td><div class="box"><p>5</p><p></p></div></td>
+                <td><div class="box"><p>6</p><p></p></div></td>
+            </div>
+            <div class="box_right"></div>
+        </div>
+
+        <div id = "footer">
+            <div class="f_left">
+                <ol>
+                    <li>법적 고지</li>
+                    <li>이메일무단수집거부</li>
+                    <li>이용약관</li>
+                    <li>개인정보취급방침</li>
+                    <li>고객센터</li>
+                    <li>입찰공고</li>
+                </ol>
+            </div>
+        </div>
+
+    </body>
+
+</html>
